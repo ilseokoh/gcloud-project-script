@@ -26,9 +26,9 @@ chmod 777 gcp-set-iam.sh
 ./gcp-set-iam.sh 
 ```
 ### 실행 
-Cloud Shell의 에디터를 이용해서 gcp-set-iam.sh 수정 
+[Cloud Shell의 에디터](https://cloud.google.com/shell/docs/launching-cloud-shell-editor?hl=ko)를 이용해서 gcp-set-iam.sh 수정 
+Bash 에서 코멘트는 # 
 
-Editor 
 ```bash
 ./gcp-set-iam.sh 
 ```
