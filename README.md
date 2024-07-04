@@ -15,3 +15,20 @@
 - Parent 밑에 있는 프로젝트 리스트에서 
 - role/owner 에 바인딩 되어 있는 ID를 모두 가져와서
 - 추가 또는 삭제 한다. 
+
+## 실행방법 (Cloud Shell 에서) 
+
+### 준비
+```bash
+git clone https://github.com/ilseokoh/gcloud-project-script.git
+cd gcloud-project-script
+chmod 777 gcp-set-iam.sh
+./gcp-set-iam.sh 
+```
+### 실행 
+Cloud Shell의 에디터를 이용해서 gcp-set-iam.sh 수정 
+
+Editor 
+```bash
+./gcp-set-iam.sh 
+```
