@@ -2,9 +2,9 @@
 
 ## 오류를 줄이기 위한 2가지 장치 
 
-### PARENT_ID 
+### FOLDER_ID 
 
-코드에서 PARETN_ID는 Folder ID 또는 Organization ID가 될 수 있다. ORG_ID 를 넣으면 전체 프로젝트 대상이고 Folder ID를 넣으면 해당 폴더 아래 프로젝트 대상 
+코드에서 Folder ID 를 지정할 수 있다. 해당 폴더 아래 프로젝트 대상으로 실행. 
 
 ### 추가먼저 실행 
 
@@ -31,4 +31,24 @@ Bash 에서 코멘트는 #
 
 ```bash
 ./gcp-set-iam.sh 
+```
+### 실행결과 
+
+```bash
+kevin@cloudshell:~ (cloud-code-123)$ ./gcp-set-iam.sh 
+Project: agent-builder-003. --------------
+admin@iloh.altostrat.com is agent-builder-033's Owner. Remove Owner role now!
+Updated IAM policy for project [agent-builder-033].
+Add 'Viewer' role to admin@iloh.altostrat.com in agent-builder-003.
+Updated IAM policy for project [agent-builder-033].
+Add Custom Role organizations/696914253542/roles/KevinCustomRole to admin@iloh.altostrat.com in agent-builder-003. 
+Updated IAM policy for project [agent-builder-033].
+Project: gen-ai-99911. --------------
+Project: cloud-code-4087. --------------
+admin@iloh.altostrat.com is cloud-code-123's Owner. Remove Owner role now!
+Updated IAM policy for project [cloud-code-123].
+Add 'Viewer' role to admin@iloh.altostrat.com in cloud-code-4087.
+Updated IAM policy for project [cloud-code-123].
+Add Custom Role organizations/696914253542/roles/KevinCustomRole to admin@iloh.altostrat.com in cloud-code-4087. 
+Updated IAM policy for project [cloud-code-123].
 ```
